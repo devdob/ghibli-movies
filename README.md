@@ -1,4 +1,4 @@
-###App to retrieve list of movies from Ghibli Productions API
+### App to retrieve list of movies from Ghibli Productions API
 
 # Setup
 
