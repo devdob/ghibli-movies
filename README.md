@@ -5,12 +5,14 @@
 Clone the repo:
 `git clone https://github.com/devdob/ghibli-movies.git`
 
-Run docker compose
-`docker-compose build`
+cd into directory
+`cd ghibli-movies`
 
-Launch
-`docker-compose up -d`
+Build and run docker compose
+`docker-compose up -d --build`
 
-Once done, navigate to `localhost:8000/movies`
+Once done, give the containers a couple of minutes of start up fully, 
+then navigate to `localhost:8000/movies`
 
-It might take up to a minute after initial launch until the DB is filled with data from the API.
+It might take up to a minute after initial launch until the DB is filled with 
+data from the API.
