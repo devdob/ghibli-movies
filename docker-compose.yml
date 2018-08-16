@@ -21,6 +21,7 @@ services:
       - db
     links:
       - db
+    restart: always
 
   redis:
     image: redis:2.8.19
@@ -37,6 +38,3 @@ services:
     links:
       - redis
       - db
-
-
-
